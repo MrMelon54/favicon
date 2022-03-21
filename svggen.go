@@ -8,7 +8,7 @@ import (
 	"github.com/tdewolff/canvas/renderers/svg"
 	"image/color"
 	"strings"
-	"tea.melonie54.xyz/sean/png2ico"
+	"code.mrmelon54.xyz/sean/png2ico"
 )
 
 //go:embed Lato-Bold.ttf
