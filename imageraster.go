@@ -2,8 +2,8 @@ package snowfavicon
 
 import (
 	"bytes"
-	"tea.melonie54.xyz/sean/png2ico"
-	"tea.melonie54.xyz/sean/svg2png"
+	"code.mrmelon54.xyz/sean/png2ico"
+	"code.mrmelon54.xyz/sean/svg2png"
 )
 
 func RasterSvgToPng(d *bytes.Buffer) ([]byte, error) {
