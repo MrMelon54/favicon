@@ -4,8 +4,8 @@ go 1.17
 
 require (
 	github.com/tdewolff/canvas v0.0.0-20220224205349-b6bbc6a34308
-	tea.melonie54.xyz/sean/png2ico v0.0.0-20220307163641-0efcaebc39bc
-	tea.melonie54.xyz/sean/svg2png v0.0.0-20220307163251-bee8e49ebaf6
+	code.mrmelon54.xyz/sean/png2ico v0.0.0-20220321230631-311127b42237
+	code.mrmelon54.xyz/sean/svg2png v0.0.0-20220321230654-c204be65d6c9
 )
 
 require (
