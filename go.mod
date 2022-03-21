@@ -1,4 +1,4 @@
-module tea.melonie54.xyz/snow/snowfavicon
+module snow.mrmelon54.xyz/snowfavicon
 
 go 1.17
 
