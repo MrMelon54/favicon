@@ -1,5 +1,9 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
+code.mrmelon54.xyz/sean/png2ico v0.0.0-20220321230631-311127b42237 h1:CIOWl5Xe64MAxdiqHy6kG52M2q3sYjN0qZWw5Z62600=
+code.mrmelon54.xyz/sean/png2ico v0.0.0-20220321230631-311127b42237/go.mod h1:Dr9YQ0FwIMNC+GGRCahsp5IhB3BZkvyZbrtFni+3GDk=
+code.mrmelon54.xyz/sean/svg2png v0.0.0-20220321230654-c204be65d6c9 h1:wgnyvSzygJRLVU807i3gsR4Xc+R8ABpjxRkyqYcyAOc=
+code.mrmelon54.xyz/sean/svg2png v0.0.0-20220321230654-c204be65d6c9/go.mod h1:JOwZ8tYoyHFbmllD8dpJaPN2biao9G+GWL4K5BCvyvk=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20201218220906-28db891af037/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 fyne.io/fyne/v2 v2.1.2/go.mod h1:p+E/Dh+wPW8JwR2DVcsZ9iXgR9ZKde80+Y+40Is54AQ=
@@ -610,7 +614,3 @@ rsc.io/pdf v0.1.1 h1:k1MczvYDUvJBe93bYd7wrZLLUEcLZAuF824/I4e5Xr4=
 rsc.io/pdf v0.1.1/go.mod h1:n8OzWcQ6Sp37PL01nO98y4iUCRdTGarVfzxY20ICaU4=
 sigs.k8s.io/yaml v1.1.0/go.mod h1:UJmg0vDUVViEyp3mgSv9WPwZCDxu4rQW1olrI1uml+o=
 sourcegraph.com/sourcegraph/appdash v0.0.0-20190731080439-ebfcffb1b5c0/go.mod h1:hI742Nqp5OhwiqlzhgfbWU4mW4yO10fP+LoT9WOswdU=
-tea.melonie54.xyz/sean/png2ico v0.0.0-20220307163641-0efcaebc39bc h1:LnNfEH4OmumE0p1FNsySnW+fLTLMZrgajFo/Xtmi7cw=
-tea.melonie54.xyz/sean/png2ico v0.0.0-20220307163641-0efcaebc39bc/go.mod h1:n6wCbT8eOlw2iOjF/iZdP93bCPnNt0epYtHXQhpEOFU=
-tea.melonie54.xyz/sean/svg2png v0.0.0-20220307163251-bee8e49ebaf6 h1:T9myo1wfA/PjgXkv1aHd9Edx5AbO3i8G5pyaRIPPPII=
-tea.melonie54.xyz/sean/svg2png v0.0.0-20220307163251-bee8e49ebaf6/go.mod h1:euq+fPVRQDf2Sapxr57xeHDUrzrqWUliY28ZzLzzE+I=

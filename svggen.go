@@ -2,13 +2,13 @@ package snowfavicon
 
 import (
 	"bytes"
+	"code.mrmelon54.xyz/sean/png2ico"
 	_ "embed"
 	"github.com/tdewolff/canvas"
 	"github.com/tdewolff/canvas/renderers"
 	"github.com/tdewolff/canvas/renderers/svg"
 	"image/color"
 	"strings"
-	"code.mrmelon54.xyz/sean/png2ico"
 )
 
 //go:embed Lato-Bold.ttf
