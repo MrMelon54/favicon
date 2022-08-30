@@ -2,8 +2,6 @@ cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMT
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 code.mrmelon54.xyz/sean/png2ico v0.0.0-20220321230631-311127b42237 h1:CIOWl5Xe64MAxdiqHy6kG52M2q3sYjN0qZWw5Z62600=
 code.mrmelon54.xyz/sean/png2ico v0.0.0-20220321230631-311127b42237/go.mod h1:Dr9YQ0FwIMNC+GGRCahsp5IhB3BZkvyZbrtFni+3GDk=
-code.mrmelon54.xyz/sean/svg2png v0.0.0-20220321230654-c204be65d6c9 h1:wgnyvSzygJRLVU807i3gsR4Xc+R8ABpjxRkyqYcyAOc=
-code.mrmelon54.xyz/sean/svg2png v0.0.0-20220321230654-c204be65d6c9/go.mod h1:JOwZ8tYoyHFbmllD8dpJaPN2biao9G+GWL4K5BCvyvk=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20201218220906-28db891af037/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 fyne.io/fyne/v2 v2.1.2/go.mod h1:p+E/Dh+wPW8JwR2DVcsZ9iXgR9ZKde80+Y+40Is54AQ=
@@ -332,11 +330,7 @@ github.com/spf13/pflag v1.0.1/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnIn
 github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
 github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/srwiley/oksvg v0.0.0-20200311192757-870daf9aa564/go.mod h1:afMbS0qvv1m5tfENCwnOdZGOF8RGR/FsZ7bvBxQGZG4=
-github.com/srwiley/oksvg v0.0.0-20220128195007-1f435e4c2b44 h1:XPYXKIuH/n5zpUoEWk2jWV/SjEMNYmqDYmTgbjmhtaI=
-github.com/srwiley/oksvg v0.0.0-20220128195007-1f435e4c2b44/go.mod h1:cNQ3dwVJtS5Hmnjxy6AgTPd0Inb3pW05ftPSX7NZO7Q=
 github.com/srwiley/rasterx v0.0.0-20200120212402-85cb7272f5e9/go.mod h1:mvWM0+15UqyrFKqdRjY6LuAVJR0HOVhJlEgZ5JWtSWU=
-github.com/srwiley/rasterx v0.0.0-20210519020934-456a8d69b780 h1:oDMiXaTMyBEuZMU53atpxqYsSB3U1CHkeAu2zr6wTeY=
-github.com/srwiley/rasterx v0.0.0-20210519020934-456a8d69b780/go.mod h1:mvWM0+15UqyrFKqdRjY6LuAVJR0HOVhJlEgZ5JWtSWU=
 github.com/streadway/amqp v0.0.0-20190404075320-75d898a42a94/go.mod h1:AZpEONHx3DKn8O/DFsRAY58/XVQiIPMTMB1SddzLXVw=
 github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271/go.mod h1:AZpEONHx3DKn8O/DFsRAY58/XVQiIPMTMB1SddzLXVw=
 github.com/streadway/handy v0.0.0-20190108123426-d5acb3125c2a/go.mod h1:qNTQ5P5JnDBl6z3cMAg/SywNDC5ABu5ApDIw6lUbRmI=
@@ -464,8 +458,6 @@ golang.org/x/net v0.0.0-20210226172049-e18ecbb05110/go.mod h1:m0MpNAwzfU5UDzcl9v
 golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4/go.mod h1:p54w0d4576C0XHj96bSt6lcn1PtDYWL6XObtHCRCNQM=
 golang.org/x/net v0.0.0-20210510120150-4163338589ed/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
 golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
-golang.org/x/net v0.0.0-20211118161319-6a13c67c3ce4 h1:DZshvxDdVoeKIbudAdFEKi+f70l51luSy/7b76ibTY0=
-golang.org/x/net v0.0.0-20211118161319-6a13c67c3ce4/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
 golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
 golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=

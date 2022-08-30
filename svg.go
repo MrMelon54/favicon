@@ -1,4 +1,4 @@
-package snowfavicon
+package favicon
 
 import (
 	"bytes"
@@ -14,17 +14,17 @@ import (
 //go:embed Lato-Bold.ttf
 var latoBold []byte
 
-type FaviconSvg struct {
+type Svg struct {
 	c      *canvas.Canvas
 	color  int
 	letter rune
 }
 
-func NewFaviconSvg(addr string, faviconColor *FaviconColor) *FaviconSvg {
-	return &FaviconSvg{canvas.New(96, 96), faviconColor.PickColor(addr), []rune(strings.ToUpper(addr))[0]}
+func NewSvg(addr string, faviconColor *Color) *Svg {
+	return &Svg{canvas.New(96, 96), faviconColor.PickColor(addr), []rune(strings.ToUpper(addr))[0]}
 }
 
-func (favicon *FaviconSvg) generate() {
+func (favicon *Svg) generate() {
 	favicon.c.Reset()
 	ctx := canvas.NewContext(favicon.c)
 	round := canvas.RoundedRectangle(96, 96, 8)
@@ -49,11 +49,11 @@ func (favicon *FaviconSvg) generate() {
 	ctx.DrawPath(0, 0, fontPath)
 }
 
-func (favicon *FaviconSvg) getR() uint8 { return uint8(favicon.color >> 16) }
-func (favicon *FaviconSvg) getG() uint8 { return uint8(favicon.color >> 8) }
-func (favicon *FaviconSvg) getB() uint8 { return uint8(favicon.color) }
+func (favicon *Svg) getR() uint8 { return uint8(favicon.color >> 16) }
+func (favicon *Svg) getG() uint8 { return uint8(favicon.color >> 8) }
+func (favicon *Svg) getB() uint8 { return uint8(favicon.color) }
 
-func (favicon *FaviconSvg) ProduceSvg() ([]byte, error) {
+func (favicon *Svg) ProduceSvg() ([]byte, error) {
 	favicon.generate()
 	b := new(bytes.Buffer)
 	err := renderers.SVG(&svg.Options{EmbedFonts: false, SubsetFonts: false, ImageEncoding: canvas.Lossless})(b, favicon.c)
@@ -63,7 +63,7 @@ func (favicon *FaviconSvg) ProduceSvg() ([]byte, error) {
 	return b.Bytes(), nil
 }
 
-func (favicon *FaviconSvg) ProducePng() ([]byte, error) {
+func (favicon *Svg) ProducePng() ([]byte, error) {
 	favicon.generate()
 	b := new(bytes.Buffer)
 	err := renderers.PNG()(b, favicon.c)
@@ -73,7 +73,7 @@ func (favicon *FaviconSvg) ProducePng() ([]byte, error) {
 	return b.Bytes(), nil
 }
 
-func (favicon *FaviconSvg) ProduceIco() ([]byte, error) {
+func (favicon *Svg) ProduceIco() ([]byte, error) {
 	b, err := favicon.ProducePng()
 	if err != nil {
 		return nil, err

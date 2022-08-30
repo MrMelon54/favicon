@@ -1,4 +1,4 @@
-Snowfavicon
-===========
+Favicon
+=======
 
-Snow services favicon generator
+Favicon generator

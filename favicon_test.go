@@ -1,4 +1,4 @@
-package snowfavicon
+package favicon
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ var (
 )
 
 func TestFaviconSvg(t *testing.T) {
-	c := NewFaviconColor()
-	f := NewFaviconSvg("example.com", c)
+	c := NewColor()
+	f := NewSvg("example.com", c)
 	b, err := f.ProduceSvg()
 	if err != nil {
 		t.Fatalf("Failed to generate the SVG: %s", err)
@@ -28,8 +28,8 @@ func TestFaviconSvg(t *testing.T) {
 }
 
 func TestFaviconPng(t *testing.T) {
-	c := NewFaviconColor()
-	f := NewFaviconSvg("example.com", c)
+	c := NewColor()
+	f := NewSvg("example.com", c)
 	b, err := f.ProducePng()
 	if err != nil {
 		t.Fatalf("Failed to rasterize the PNG: %s", err)
@@ -40,8 +40,8 @@ func TestFaviconPng(t *testing.T) {
 }
 
 func TestFaviconIco(t *testing.T) {
-	c := NewFaviconColor()
-	f := NewFaviconSvg("example.com", c)
+	c := NewColor()
+	f := NewSvg("example.com", c)
 	b, err := f.ProduceIco()
 	if err != nil {
 		t.Fatalf("Failed to rasterize the ICO: %s", err)
