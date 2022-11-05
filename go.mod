@@ -3,7 +3,7 @@ module github.com/mrmelon54/favicon
 go 1.18
 
 require (
-	code.mrmelon54.xyz/sean/png2ico v0.0.0-20220321230631-311127b42237
+	github.com/mrmelon54/png2ico v1.0.0
 	github.com/tdewolff/canvas v0.0.0-20220224205349-b6bbc6a34308
 )
 

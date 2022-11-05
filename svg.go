@@ -2,7 +2,7 @@ package favicon
 
 import (
 	"bytes"
-	"code.mrmelon54.xyz/sean/png2ico"
+	"github.com/mrmelon54/png2ico"
 	_ "embed"
 	"github.com/tdewolff/canvas"
 	"github.com/tdewolff/canvas/renderers"
